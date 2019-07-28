@@ -1,6 +1,6 @@
 {
   "query": {
-    "statement": "SELECT * FROM enaio:object WHERE CONTAINS('gay lesbian* homosexual lgbt* lgbtq transexual*')",
+    "statement": "SELECT * FROM enaio:object WHERE enaio:creationDate IN today() AND CONTAINS('gay lesbian* homosexual lgbt* lgbtq transexual*')",
     "skipCount": 0,
     "maxItems": 50
   }
