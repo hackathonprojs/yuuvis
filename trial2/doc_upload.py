@@ -6,7 +6,7 @@ paramDict = {}
 baseUrl = 'https' + '://' + 'api.yuuvis.io'
 
 #update this and two paths below
-myFileName = 'test_pdf.pdf'
+myFileName = 'resume_christian.pdf'
 
 
 
