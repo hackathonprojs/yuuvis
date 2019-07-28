@@ -22,6 +22,6 @@ session = requests.Session()
 
 
 #relative path to your new query file
-queryFilePath = './sample_query.json'
+queryFilePath = './query.json'
 response = session.post(str(baseUrl+'/dms/objects/search'), data=open(queryFilePath, 'rb'), headers=headerDict)
 print(response.json())
