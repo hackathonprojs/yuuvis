@@ -1,6 +1,6 @@
 {
   "query": {
-    "statement": "SELECT * FROM enaio:object WHERE CONTAINS('christ* hindu buddhism orthodox')",
+    "statement": "SELECT * FROM enaio:object WHERE CONTAINS('christ* musl* islam* hindu* buddh* orthodox*')",
     "skipCount": 0,
     "maxItems": 50
   }
